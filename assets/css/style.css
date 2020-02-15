@@ -1,5 +1,25 @@
 body {
     background-image: url(../images/background-2.jpg);
+}
+
+h1 {
     font-family: 'Lemonada', cursive;
     color: white;
+    font-size: larger;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lacquer', sans-serif;
+    font-size: medium;
+    color: lightcoral;
+    text-align: center;
+    padding-top: 10px;
+}
+
+p {
+    font-family: 'Lacquer', sans-serif;
+    color: lightblue;
+    text-align: center;
+    padding-top: 20px;
 }
