@@ -1,5 +1,5 @@
 // start of variables
-var computerGuesses = [
+var alphabet = [
     "a", "b", "c", "d", "e", "f", "g", "h", "i", "j",
     "k", "l", "m", "n", "o", "p", "q", "r", "s", "t",
     "u", "v", "w", "x", "y", "z"];
@@ -14,3 +14,8 @@ var guessLeft = document.getElementById("guesses-left");
 var win = document.getElementById("wins");
 var loss = document.getElementById("losses");
 
+var computerChoice = alphabet[Math.floor(Math.random() * alphabet.length)];
+
+document.onkeyup = function(event) {
+    userGuesses.push(event.key);
+}
