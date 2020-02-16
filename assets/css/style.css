@@ -17,6 +17,11 @@ h4 {
     padding-top: 10px;
 }
 
+h6 {
+    font-family: 'Lemonada', cursive;
+    color: white;
+}
+
 p {
     font-family: 'Lacquer', sans-serif;
     color: lightblue;
