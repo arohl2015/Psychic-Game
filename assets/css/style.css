@@ -1,12 +1,14 @@
 body {
     background-image: url(../images/background-2.jpg);
+    opacity: 75%;
 }
 
 h1 {
     font-family: 'Lemonada', cursive;
-    color: white;
+    color: purple;
     font-size: larger;
     text-align: center;
+    font-weight: bolder;
 }
 
 h4 {
@@ -17,14 +19,11 @@ h4 {
     padding-top: 10px;
 }
 
-h6 {
-    font-family: 'Lemonada', cursive;
-    color: white;
-}
-
 p {
     font-family: 'Lacquer', sans-serif;
-    color: lightblue;
+    color: white;
     text-align: center;
+    font-weight: bold;
+    font-size: 18px;
     padding-top: 20px;
 }
